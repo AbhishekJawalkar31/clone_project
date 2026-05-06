@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------
+    box1 */
+
+.navbar {
+    height: 65px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.amazon-logo {
+    width: 100px;
+    height: 50px;
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+}
+
+.border {
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* box2 */
+
+.nav-address {
+    font-size: 1rem;
+    color: #cccccc;
+    height: 50px;
+}
+
+.deliver {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.add-icon {
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+}
+
+/* box3 */
+
+.nav-search {   
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.nav-search:hover {
+    border: 1px solid #f08804;
+}
+
+.search-select {
+    height: 100%;
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    background-color: #f08804;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+/* box4 */
+
+.nav-signin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+.hello {
+    font-size: 0.75rem;
+}
+
+.account {
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+/* box5 */
+
+.nav-return {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+.returns {
+    font-size: 0.75rem;
+}
+
+.orders {
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+/* box6 */
+
+.nav-cart {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.cart {
+    font-size: 13px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+/* Panel
+-------------------------------------------------------------- */
+
+.panel {
+    background-color: #232F3E;
+    color: white;
+    height: 44px;
+    display: flex;
+}
+
+.panel-all {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.panel-logo {
+    font-size: 1.3rem;
+}
+
+.all {
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.panel-options {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options:hover {
+    border: 2px solid white;
+}
+
+/* Hero Section
+----------------------------------------------------------------- */
+
+.hero-section {
+    height: 320px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.amazon-link {
+    text-decoration: none;
+} 
+
+/* Products
+------------------------------------------------------------------ */
+
+/* Box1 */
+
+.box {
+    height: 500px;
+    background-color: #EAEDED;
+    padding-left: 38px;
+    display: flex;
+    gap: 25px;
+}
+
+.box1 {
+    background-color: white;
+    width: 400px;
+    height: 430px;
+}
+
+.box1_p1 {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 1.3rem;
+}
+
+.box1_image1 {
+    height: 300px;
+    width: 350px;
+    margin-top: 35px;
+    margin-left: 25px;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+}
+
+.box1_p2 {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+/* Box2 */
+
+.row {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    background-color: white;
+}
+.box2_image1 {
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    background-image: url("kitchen_and_dining.jpg");
+    background-size: contain;
+}
+.box2_image2 {
+    height: 100px;
+    width: 150px;
+    margin-right: 20px;
+    background-image: url("home_improvement.jpg");
+    background-size: contain;
+}
