@@ -237,12 +237,13 @@ a {
     background-color: #EAEDED;
     padding-left: 38px;
     display: flex;
+    justify-content: space-evenly;
     gap: 25px;
 }
 
 .box1 {
     background-color: white;
-    width: 400px;
+    width: 350px;
     height: 430px;
 }
 
@@ -259,7 +260,8 @@ a {
     margin-top: 35px;
     margin-left: 25px;
     background-image: url("box1_image.jpg");
-    background-size: cover;
+    background-size: 300px 270px;
+    background-repeat: no-repeat;
 }
 
 .box1_p2 {
@@ -286,19 +288,20 @@ a {
 .box2 {
     background-color: white;
     height: 430px;
+    width: 350px;
 }
 
 .box2_image1 {
     height: 100px;
     width: 150px;
-    margin-left: 20px;
+    margin-left: 15px;
     background-image: url("kitchen_and_dining.jpg");
     background-size: contain;
 }
 
 .box2_p1 {
     position: relative;
-    margin-left: 20px;
+    margin-left: 15px;
     top: 25px;
     font-size: 1.3rem;
 }
@@ -306,19 +309,22 @@ a {
 .box2_p2 {
     font-size: 0.8rem;
     position: relative;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 3px;
 }
 
 .box2_p3 {
     font-size: 0.8rem;
     margin-top: 3px;
+    position: relative;
+    right: 25px;
 }
 
 .box2_image2 {
     height: 100px;
     width: 150px;
-    margin-right: 20px;
+    position: relative;
+    right: 25px;
     background-image: url("home_improvement.jpg");
     background-size: contain;
 }
@@ -330,7 +336,7 @@ a {
 .box2_image3 {
     height: 100px;
     width: 150px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 25px;
     background-image: url("decor.jpg");
     background-size: contain;
@@ -339,7 +345,7 @@ a {
 .box2_p4 {
     font-size: 0.8rem;
     position: relative;
-    left: 20px;
+    left: 15px;
     top: 3px;
 }
 
@@ -348,14 +354,14 @@ a {
     width: 150px;
     background-image: url("bedding_and_bath.jpg");
     background-size: contain;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 25px;
 }
 
 .box2_p5 {
     font-size: 0.8rem;
     position: relative;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 3px;
 }
 
@@ -372,19 +378,20 @@ a {
 .box3 {
     background-color: white;
     height: 430px;
+    width: 350px;
 }
 
 .box3_image1 {
     height: 100px;
     width: 150px;
-    margin-left: 20px;
+    margin-left: 15px;
     background-image: url("jeans_under_50.jpg");
     background-size: contain;
 }
 
 .box3_p1 {
     position: relative;
-    margin-left: 20px;
+    margin-left: 15px;
     top: 25px;
     font-size: 1.3rem;
 }
@@ -392,19 +399,22 @@ a {
 .box3_p2 {
     font-size: 0.8rem;
     position: relative;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 3px;
 }
 
 .box3_p3 {
     font-size: 0.8rem;
     margin-top: 3px;
+    position: relative;
+    right: 25px;
 }
 
 .box3_image2 {
     height: 100px;
     width: 150px;
-    margin-right: 20px;
+    position: relative;
+    right: 25px;
     background-image: url("tops_under_25.jpg");
     background-size: contain;
 }
@@ -412,7 +422,7 @@ a {
 .box3_image3 {
     height: 100px;
     width: 150px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 25px;
     background-image: url("dresses_under_30.jpg");
     background-size: contain;
@@ -421,7 +431,7 @@ a {
 .box3_p4 {
     font-size: 0.8rem;
     position: relative;
-    left: 20px;
+    left: 15px;
     top: 3px;
 }
 
@@ -430,14 +440,14 @@ a {
     width: 150px;
     background-image: url("shoes_under_50.jpg");
     background-size: contain;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 25px;
 }
 
 .box3_p5 {
     font-size: 0.8rem;
     position: relative;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 3px;
 }
 
@@ -446,5 +456,113 @@ a {
     position: relative;
     left: 20px;
     top: 60px;
+}
 
+/* Box 4 */
+
+.box4 {
+    background-color: white;
+    height: 430px;
+    width: 350px;
+    margin-right: 50px;
+}
+
+.box4_image1 {
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    background-image: url("apparel.jpg");
+    background-size: contain;
+}
+
+.box4_p1 {
+    position: relative;
+    margin-left: 20px;
+    top: 25px;
+    font-size: 1.3rem;
+}
+
+.box4_p2 {
+    font-size: 0.8rem;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.box4_p3 {
+    font-size: 0.8rem;
+    margin-top: 3px;
+    position: relative;
+    right: 25px;
+}
+
+.box4_image2 {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    right: 25px;
+    background-image: url("shoes.jpg");
+    background-size: contain;
+}
+
+.box4_image3 {
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-image: url("jewelry.jpg");
+    background-size: contain;
+}
+
+.box4_p4 {
+    font-size: 0.8rem;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+.box4_image4 {
+    height: 100px;
+    width: 150px;
+    background-image: url("handbags.jpg");
+    background-size: contain;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.box4_p5 {
+    font-size: 0.8rem;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.box4_p6 {
+    font-size: 0.85rem;
+    position: relative;
+    left: 20px;
+    top: 60px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.images{
+    background-color: #EAEDED;
+}
+
+.division {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 95%;
+}
+
+.div-text {
+    white-space: nowrap;
+}
+
+.image {
+    width: 168px;
+    height: 200px;
+    margin-top: 65px;
 }
