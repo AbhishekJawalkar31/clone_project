@@ -545,24 +545,74 @@ a {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Images */
 
-.images{
+.images {
     background-color: #EAEDED;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -50px;
 }
 
 .division {
-    background-color: white;
-    display: flex;
-    height: 250px;
     width: 95%;
+    background-color: white;
+    padding-left: 30px;
 }
 
 .div-text {
-    white-space: nowrap;
+    margin-top: 20px;
+    font-size: 1.3rem;
 }
 
 .image {
     width: 168px;
     height: 200px;
-    margin-top: 65px;
+    margin-top: 30px;
+}
+
+/* Sign In */
+
+.horizontal-line {
+    width: 97%;
+    position: relative;
+    left: 20px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    padding-left: 20px;
+}
+
+.sign {
+    font-size: 1.4rem;
+    margin-top: 40px;
+}
+
+.sign-in-button {
+    border-radius: 20px;
+    height: 35px;
+    width: 230px;
+    position: relative;
+    top: 15px;
+    background-color: #ffd814;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.sign-in-button:hover {
+    background-color: #eecd29;
+}
+
+.new-customer {
+    margin-top: 20px;
+}
+
+.new-customer {
+    font-size:  0.75rem;
 }
