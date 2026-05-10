@@ -43,38 +43,38 @@ A front-end clone of the Amazon homepage built using pure **HTML** and **CSS**. 
 
 ```
 amazon-clone/
-│
-├── index.html               # Main HTML file
-├── style.css                # Stylesheet
-│
-├── amazon-logo.png          # Amazon navbar logo
-├── hero_image.jpg           # Hero banner background
-│
-├── box1_image.jpg           # Gaming section image
-│
-├── kitchen_and_dining.jpg   # Home box images
-├── home_improvement.jpg
-├── decor.jpg
-├── bedding_and_bath.jpg
-│
-├── jeans_under_50.jpg       # Fashion box images
-├── tops_under_25.jpg
-├── dresses_under_30.jpg
-├── shoes_under_50.jpg
-│
-├── apparel.jpg              # Gifts box images
-├── shoes.jpg
-├── jewelry.jpg
-├── handbags.jpg
-│
-├── image1.jpg               # Best sellers strip images
-├── image2.jpg
-├── image3.jpg
-├── image4.jpg
-├── image5.jpg
-├── image6.jpg
-├── image7.jpg
-└── image8.jpg
+├── index.html                  # Main HTML file
+├── style.css                   # Stylesheet
+├── README.md
+└── images/
+    ├── amazon-logo.png         # Amazon navbar logo
+    ├── hero_image.jpg          # Hero banner background
+    │
+    ├── box1_image.jpg          # Gaming section
+    │
+    ├── kitchen_and_dining.jpg  # Home box images
+    ├── home_improvement.jpg
+    ├── decor.jpg
+    ├── bedding_and_bath.jpg
+    │
+    ├── jeans_under_50.jpg      # Fashion box images
+    ├── tops_under_25.jpg
+    ├── dresses_under_30.jpg
+    ├── shoes_under_50.jpg
+    │
+    ├── apparel.jpg             # Gifts box images
+    ├── shoes.jpg
+    ├── jewelry.jpg
+    ├── handbags.jpg
+    │
+    ├── image1.jpg              # Best sellers strip
+    ├── image2.jpg
+    ├── image3.jpg
+    ├── image4.jpg
+    ├── image5.jpg
+    ├── image6.jpg
+    ├── image7.jpg
+    └── image8.jpg
 ```
 
 ---
